@@ -7,9 +7,10 @@ for i in range(len(a)):
 
 while True:
     id = input()
-    if id == 'СТОП': break
+    if id == 'СТОП':
+        break
     id = int(id)
-    for x  in a:
+    for x in a:
         if x[2] == id:
             f, i, o = x[1].split()
             name = f'{i[0]}. {f}'
