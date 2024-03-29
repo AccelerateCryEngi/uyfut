@@ -1,2 +1,2 @@
 # potential
-# https://github.com/AccelerateCryEngi/uyfut.git
+# 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
