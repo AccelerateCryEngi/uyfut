@@ -3,6 +3,7 @@ import random
 with open('students.csv', encoding='utf-8') as f:
     a = [[y.strip() for y in x.split(',')] for x in f.readlines()]
 title = a.pop(0)
+
 def create_pass():
     pw = []
     for _ in range(3):
